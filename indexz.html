@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+    <title>Portafolio</title>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e5256a7609.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- boton de back to top -->
+    <button id="back-to-top"><i class="fas fa-angle-double-up"></i> </button>
+    <div class="contenedor">
+        <header class="header">
+
+            <div id="progressbar"></div>
+            <div id="scrollpath"></div>
+            <section>
+                <!-- menu de navegacion -->
+                <nav class="menu">
+
+
+
+                    <ul>
+                        <li><a href="#" class="activ">Home</a></li>
+                        <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                        <li><a href="./pages/about.html">About</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
+
+                        <button class="switch" id="switch">
+                            <span><i class="fas fa-sun"></i></span>
+                            <span><i class="fas fa-rocket"></i></span>
+                        </button>
+
+
+
+                    </ul>
+                </nav>
+
+        </header>
+
+
+
+        </section>
+        <!-- seccion con otra imagen y nombre -->
+        <article class="article">
+            <div class="vacio"></div>
+            <div class="text">
+                <p>Hello World,</p>
+                <p>Mi nombre es Israel</p>
+                <p>soy Diseñador en Medios Interactivos</p>
+                <button onclick="location.href='mailto:israel.cosios@gmail.com'" class="contratar">contactar</button>
+
+                <button class="cv"> descargar cv </button>
+
+            </div>
+
+
+        </article>
+        <!-- funcion en Java del scroll en RGB -->
+        <script type="text/javascript">
+            let progress = document.getElementById("progressbar");
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.innerHeight;
+            window.onscroll = function() {
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+        </script>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
