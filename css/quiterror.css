@@ -1,0 +1,46 @@
+.logoo {
+    align-content: center;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.content {
+    align-content: center;
+    display: block;
+    text-align: center;
+    padding: 50px;
+}
+
+.circles {
+    background: url(../images/quiterror11.png);
+    border-radius: 80%;
+}
+
+.containers {
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 37.5em;
+    padding: 0.625em;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0.625em;
+    -webkit-box-shadow: 0 0.9375em 3.125em rgba(195, 0, 255, 0.2);
+    box-shadow: 0 0.9375em 3.125em rgba(195, 0, 255, 0.2);
+}
+
+section {
+    margin: 0;
+    width: 99.5%;
+    height: calc(100vh - 0px);
+    background-image: url(../images/fondoquit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
